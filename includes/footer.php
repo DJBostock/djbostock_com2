@@ -1,1 +1,0 @@
-<p>&copy; DJ Bostock <span id="currentYear"></span></p>
