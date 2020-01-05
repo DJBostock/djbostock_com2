@@ -14,6 +14,6 @@ $title = "DJ Bostock";
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
