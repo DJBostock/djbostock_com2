@@ -16,7 +16,9 @@ $title = "DJ Bostock";
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>DJ Bostock</h1>
+    <header>
+        <h1>DJ Bostock</h1>
+    </header>
     <script src="js/script.js"></script>
 </body>
 </html>
