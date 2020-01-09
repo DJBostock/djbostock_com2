@@ -19,6 +19,9 @@ $title = "DJ Bostock";
     <header>
         <h1>DJ Bostock</h1>
     </header>
+    <main>
+        <p>Hello, World!</p>
+    </main>
     <script src="js/script.js"></script>
 </body>
 </html>
