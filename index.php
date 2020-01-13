@@ -22,6 +22,9 @@ $title = "DJ Bostock";
     <main>
         <p>Hello, World!</p>
     </main>
+    <footer>
+        <p>&copy; DJ Bostock</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
