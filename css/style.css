@@ -10,6 +10,10 @@ body {
   color: var(--color-4);
 }
 
+footer {
+  border-bottom: 2px solid var(--color-4);
+}
+
 header {
   border-bottom: 2px solid var(--color-4);
 }
