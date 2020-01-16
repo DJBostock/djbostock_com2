@@ -10,7 +10,7 @@ body {
   color: var(--color-4);
 }
 
-footer {
+header {
   border-bottom: 2px solid var(--color-4);
 }
 
