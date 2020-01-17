@@ -12,6 +12,7 @@ body {
 
 header {
   border-bottom: 2px solid var(--color-4);
+  text-align: center;
 }
 
 main {
