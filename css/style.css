@@ -10,6 +10,10 @@ body {
   color: var(--color-4);
 }
 
+footer {
+  text-align: right;
+}
+
 header {
   border-bottom: 2px solid var(--color-4);
   text-align: center;
