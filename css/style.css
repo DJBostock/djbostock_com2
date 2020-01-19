@@ -22,3 +22,7 @@ header {
 main {
   border-bottom: 2px solid var(--color-4);
 }
+
+.hero {
+  max-height: 200px;
+}
