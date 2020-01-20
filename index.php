@@ -22,6 +22,7 @@ $title = "DJ Bostock";
     </header>
     <main>
         <p>Hello, World!</p>
+        <p>This website is largely a test environment for me where I experiment with different web technologies as I learn about them. I am forever building things and tearing them down again.</p>
     </main>
     <footer>
         <p>&copy; DJ Bostock</p>
