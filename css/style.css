@@ -26,3 +26,10 @@ main {
 .hero {
   max-height: 200px;
 }
+
+@media screen and (min-width: 1000px) {
+  body {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
