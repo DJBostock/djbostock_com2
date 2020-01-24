@@ -19,7 +19,7 @@ $title = "DJ Bostock";
 <body>
     <header>
         <h1>DJ Bostock</h1>
-        <img src="images/profile.png" alt="cartoon headshot of the author" class="hero">
+        <img src="images/profile-round.png" alt="cartoon headshot of the author" class="hero">
     </header>
     <main>
         <p>Hello, World!</p>

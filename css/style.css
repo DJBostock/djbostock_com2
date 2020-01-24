@@ -24,6 +24,7 @@ main {
 }
 
 .hero {
+  border-radius: 50%;
   max-height: 200px;
 }
 
