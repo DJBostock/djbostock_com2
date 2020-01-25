@@ -19,7 +19,8 @@ header {
   text-align: center;
 }
 
-main {
+main,
+section {
   border-bottom: 2px solid var(--color-4);
 }
 
