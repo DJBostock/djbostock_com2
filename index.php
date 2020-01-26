@@ -27,6 +27,18 @@ $title = "DJ Bostock";
     </main>
     <section>
         <h2>Projects</h2>
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>This is the card for project 1.</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>This is the card for project 2.</p>
+        </div>
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>This is the card for project 3.</p>
+        </div>
     </section>
     <footer>
         <p>&copy; DJ Bostock</p>
