@@ -25,19 +25,22 @@ $title = "DJ Bostock";
         <p>Hello, World!</p>
         <p>This website is largely a test environment for me where I experiment with different web technologies as I learn about them. I am forever building things and tearing them down again.</p>
     </main>
-    <section>
+    <section class="projectContainer">
         <h2>Projects</h2>
         <div class="card">
             <h3>Project 1</h3>
             <p>This is the card for project 1.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nobis animi facere perspiciatis voluptas aperiam! Ducimus consectetur, voluptates vel laudantium numquam debitis adipisci autem quo totam quod nostrum veritatis hic.</p>
         </div>
         <div class="card">
             <h3>Project 2</h3>
             <p>This is the card for project 2.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nobis animi facere perspiciatis voluptas aperiam! Ducimus consectetur, voluptates vel laudantium numquam debitis adipisci autem quo totam quod nostrum veritatis hic.</p>
         </div>
         <div class="card">
             <h3>Project 3</h3>
             <p>This is the card for project 3.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nobis animi facere perspiciatis voluptas aperiam! Ducimus consectetur, voluptates vel laudantium numquam debitis adipisci autem quo totam quod nostrum veritatis hic.</p>
         </div>
     </section>
     <footer>
