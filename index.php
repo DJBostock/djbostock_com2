@@ -27,7 +27,7 @@ $title = "DJ Bostock";
     </main>
     <section class="projectContainer">
         <h2>Projects</h2>
-        <div class="card">
+        <div class="card active">
             <h3>Project 1</h3>
             <p>This is the card for project 1.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nobis animi facere perspiciatis voluptas aperiam! Ducimus consectetur, voluptates vel laudantium numquam debitis adipisci autem quo totam quod nostrum veritatis hic.</p>
