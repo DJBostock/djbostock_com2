@@ -1,0 +1,17 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.projectContainer .card {
+  cursor: pointer;
+}
+
+.projectContainer p {
+  display: none;
+}
+
+.projectContainer div.active p {
+  display: flex;
+}
