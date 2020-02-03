@@ -21,6 +21,9 @@ $title = "DJ Bostock";
         <h1>DJ Bostock</h1>
         <img src="images/profile-round.png" alt="cartoon headshot of the author" class="hero">
     </header>
+
+    <?php include './includes/nav.php'; ?>
+
     <main>
         <p>Hello, World!</p>
         <p>This website is largely a test environment for me where I experiment with different web technologies as I learn about them. I am forever building things and tearing them down again.</p>
