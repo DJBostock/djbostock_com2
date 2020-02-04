@@ -23,6 +23,9 @@ $title = "DJ Bostock - Projects";
         <h1>Projects</h1>
         <img src="images/profile-round.png" alt="cartoon headshot of the author" class="hero">
     </header>
+
+    <?php include './includes/nav.php'; ?>
+    
     <main class="projectContainer">
         <div class="card active">
             <h3>Project 1</h3>
