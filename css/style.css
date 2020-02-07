@@ -50,6 +50,7 @@ section {
 .mainNav a:hover,
 .mainNav a:link,
 .mainNav a:visited {
+  color: var(--color-4);
   text-decoration: none;
 }
 
