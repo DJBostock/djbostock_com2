@@ -26,8 +26,8 @@ $title = "DJ Bostock - Projects";
 
     <?php include './includes/nav.php'; ?>
     
-    <main class="projectContainer">
-        <div class="card active">
+    <main>
+        <div class="card">
             <h3>Project 1</h3>
             <p>This is the card for project 1.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, nobis animi facere perspiciatis voluptas aperiam! Ducimus consectetur, voluptates vel laudantium numquam debitis adipisci autem quo totam quod nostrum veritatis hic.</p>
