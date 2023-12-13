@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DJ Bostock</title>
+    <title>Blog - DJ Bostock</title>
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -13,7 +13,7 @@
         <span class="logo">DJ Bostock</span>
     </nav>
     <header>
-        <h1>Hello, World!</h1>
+        <h1>Blog</h1>
     </header>
     <main>&nbsp;</main>
     <footer>&copy; <span id="currentYear"></span></footer>
