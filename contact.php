@@ -15,7 +15,14 @@
     <header>
         <h1>Contact Me</h1>
     </header>
-    <main>&nbsp;</main>
+    <main>
+        <form action="./contact.php" method="post">
+            <div>
+                <label for="userFrom">From:</label>
+                <input type="text" name="userFrom" id="userFrom">
+            </div>
+        </form>
+    </main>
     <footer>&copy; <span id="currentYear"></span></footer>
     <script src="./js/script.js"></script>
 </body>
