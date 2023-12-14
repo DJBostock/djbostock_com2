@@ -52,6 +52,10 @@ main {
   justify-content: center;
 }
 
+.contact-input {
+  margin: 10px;
+}
+
 .logo-img {
   border-radius: 50%;
   margin: 10px auto;

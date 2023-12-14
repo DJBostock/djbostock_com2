@@ -23,13 +23,20 @@ $title = "Contact - DJ Bostock";
     </header>
     <main class="center-main">
         <form action="./contact.php" method="post">
-            <div>
+            <div class="contact-input">
                 <label for="userFrom">From:</label>
                 <input type="text" name="userFrom" id="userFrom">
             </div>
-            <div>
+            <div class="contact-input">
                 <label for="userSubject">Subject:</label>
                 <input type="text" name="userSubject" id="userSubject">
+            </div>
+            <div class="contact-input">
+                <label for="userMessage">Message:</label>
+                <textarea name="userMessage" id="userMessage" cols="30" rows="10"></textarea>
+            </div>
+            <div class="contact-input">
+                <button type="submit">Send</button>
             </div>
         </form>
     </main>
