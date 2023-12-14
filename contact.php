@@ -21,11 +21,15 @@ $title = "Contact - DJ Bostock";
     <header>
         <h1>Contact Me</h1>
     </header>
-    <main>
+    <main class="center-main">
         <form action="./contact.php" method="post">
             <div>
                 <label for="userFrom">From:</label>
                 <input type="text" name="userFrom" id="userFrom">
+            </div>
+            <div>
+                <label for="userSubject">Subject:</label>
+                <input type="text" name="userSubject" id="userSubject">
             </div>
         </form>
     </main>
