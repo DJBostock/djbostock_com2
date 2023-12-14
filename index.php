@@ -14,6 +14,7 @@
     </nav>
     <header>
         <h1>Hello, World!</h1>
+        <img src="./images/stick.jpg" class="logo-img" alt="smiling stick person">
     </header>
     <main>&nbsp;</main>
     <footer>&copy; <span id="currentYear"></span></footer>
