@@ -42,7 +42,10 @@ html {
   display: flex;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 2px solid var(--color-5);
   border-radius: 5px;
 }
 
@@ -50,8 +53,19 @@ main {
   flex-grow: 1;
 }
 
-textarea {
-  border-radius: 5px;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a:active,
+nav a:link,
+nav a:visited,
+nav a:hover {
+  color: var(--color-2);
+  margin-left: 20px;
+  text-decoration: none;
 }
 
 .center-main {

@@ -2,6 +2,22 @@
 
 $title = "Contact - DJ Bostock";
 
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $userFrom = test_input($_POST["userFrom"]);
+    $userSubject = test_input($_POST["userSubject"]);
+    $userMessage = test_input($_POST["userMessage"]);
+    mail($to="douglasjbostock@gmail.com", $subject=$userSubject, $message=$userMessage, $from=$userFrom);
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -17,16 +33,20 @@ $title = "Contact - DJ Bostock";
 <body>
     <nav>
         <span class="logo">DJ Bostock</span>
+        <span>
+            <a href="index.php">Home</a>
+            <a href="contact.php">Contact</a>
+        </span>
     </nav>
     <header>
         <h1>Contact Me</h1>
     </header>
     <main class="center-main">
         <div class="form-container">
-        <form action="./contact.php" method="post">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="contact-input">
                 <label for="userFrom">From:</label><br>
-                <input type="text" name="userFrom" id="userFrom">
+                <input type="email" name="userFrom" id="userFrom" placeholder="enter your email address" required>
             </div>
             <div class="contact-input">
                 <label for="userSubject">Subject:</label><br>
