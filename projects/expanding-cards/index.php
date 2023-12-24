@@ -13,8 +13,8 @@ $title = "Expanding Cards";
     <nav>
         <span class="logo">DJ Bostock</span>
         <span>
-            <a href="index.php">Home</a>
-            <a href="contact.php">Contact</a>
+            <a href="/index.php">Home</a>
+            <a href="/contact.php">Contact</a>
         </span>
     </nav>
     <header>
