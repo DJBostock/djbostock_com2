@@ -22,7 +22,13 @@ $title = "DJ Bostock";
         <img src="./images/stick.jpg" class="logo-img" alt="smiling stick person">
     </header>
     <main>
-        &nbsp;
+        <div class="tutorial-box">
+            <h2>Tutorial Projects</h2>
+            <p>Below are projects adapted from various online tutorials.</p>
+            <ul>
+                <li><a href="./projects/expanding-cards/">Expanding Cards</a></li>
+            </ul>
+        </div>
     </main>
     <footer>&copy; <span id="currentYear"></span></footer>
     <script src="./js/script.js"></script>

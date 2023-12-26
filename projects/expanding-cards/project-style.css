@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 main {
   font-family: "Muli", sans-serif;
   display: flex;
@@ -12,20 +16,22 @@ main {
 .container {
   display: flex;
   flex-grow: 1;
+  min-height: 100%;
 }
 
 .panel {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
+  min-height: 100%;
   position: relative;
   -webkit-transition: all 700ms ease-in;
+  transition: all 700ms ease-in;
 }
 
 .panel h3 {
