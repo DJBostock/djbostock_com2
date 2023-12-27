@@ -107,3 +107,13 @@ nav a:hover {
   color: var(--color-1);
   padding: 10px;
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .tutorial-box {
+    margin: 5px;
+  }
+}

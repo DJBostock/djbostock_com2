@@ -1,2 +1,3 @@
 *.code-workspace
 resume/
+includes/db-credentials.php
