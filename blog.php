@@ -28,7 +28,16 @@
         <h1>Blog</h1>
     </header>
     <main>
-        <?php var_dump($articles); ?>
+        <ul>
+            <?php foreach ($articles as $article): ?>
+                <li>
+                    <div>
+                        <h3><?= $article['title']; ?></h3>
+                        <p><?= $article['content']; ?></p>
+                    </div>
+                </li>
+            <?php endforeach; ?>
+        </ul>
     </main>
     <footer>&copy; <span id="currentYear"></span></footer>
     <script src="./js/script.js"></script>
