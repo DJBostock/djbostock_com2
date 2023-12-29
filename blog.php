@@ -22,7 +22,7 @@
 </head>
 <body>
     <nav>
-        <span class="logo">DJ Bostock</span>
+        <?php include("includes/nav.php"); ?>
     </nav>
     <header>
         <h1>Blog</h1>

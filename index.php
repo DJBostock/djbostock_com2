@@ -11,11 +11,7 @@ $title = "DJ Bostock";
 </head>
 <body>
     <nav>
-        <span class="logo">DJ Bostock</span>
-        <span>
-            <a href="index.php">Home</a>
-            <a href="contact.php">Contact</a>
-        </span>
+        <?php include("includes/nav.php"); ?>
     </nav>
     <header>
         <h1>Hello, World!</h1>
