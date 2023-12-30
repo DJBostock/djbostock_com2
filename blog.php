@@ -28,16 +28,20 @@
         <h1>Blog</h1>
     </header>
     <main>
-        <ul>
-            <?php foreach ($articles as $article): ?>
-                <li>
-                    <div>
-                        <h3><?= $article['title']; ?></h3>
-                        <p><?= $article['content']; ?></p>
-                    </div>
-                </li>
-            <?php endforeach; ?>
-        </ul>
+        <?php if (empty($articles)): ?>
+            <p>No articles found.</p>
+        <?php else: ?>
+            <ul>
+                <?php foreach ($articles as $article): ?>
+                    <li>
+                        <div>
+                            <h3><?= $article['title']; ?></h3>
+                            <p><?= $article['content']; ?></p>
+                        </div>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
     </main>
     <footer>&copy; <span id="currentYear"></span></footer>
     <script src="./js/script.js"></script>
