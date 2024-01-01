@@ -23,6 +23,7 @@ $title = "DJ Bostock";
             <p>Below are projects adapted from various online tutorials.</p>
             <ul>
                 <li><a href="./projects/expanding-cards/">Expanding Cards</a></li>
+                <li><a href="./projects/progress-steps/">Progress Steps</a></li>
             </ul>
         </div>
     </main>
