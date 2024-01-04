@@ -87,6 +87,10 @@ nav a:hover {
   box-shadow: 10px 10px var(--color-4);
 }
 
+.individual-article {
+  flex-direction: column;
+}
+
 .logo-img {
   border-radius: 50%;
   margin: 10px auto;
