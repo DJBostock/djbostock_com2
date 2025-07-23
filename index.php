@@ -29,6 +29,10 @@
         <nav>
             <?php include './includes/nav.php'; ?>
         </nav>
+        <section>
+            <p>Welcome! While still largely under construction, this page should in due course serve as a portfolio for me.
+                Stay tuned for updates. This page is coded lovingly by hand by me.</p>
+        </section>
     </main>
 </body>
 
