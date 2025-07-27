@@ -1,3 +1,5 @@
+<?php $title = "DJ Bostock - About Me"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
