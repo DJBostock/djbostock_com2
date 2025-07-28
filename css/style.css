@@ -1,84 +1,207 @@
+/* ===========================
+   FONT IMPORTS
+   =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap');
+
+/* ===========================
+   VARIABLES
+   =========================== */
+:root {
+  --color-bg: #F9FAFB;
+  --color-text: #1F2937;
+  --color-primary: #2563EB;
+  --color-primary-hover: #3B82F6;
+  --color-muted: #E5E7EB;
+}
+
+/* ===========================
+   GLOBAL BASE STYLES
+   =========================== */
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    align-items: center;
-    background-attachment: fixed;
-    background-image: url("../images/pexels-krisof-1252890.jpg");
-    background-position: center center;
-    background-size: cover;
-    display: flex;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* ===========================
+   LAYOUT & UTILITIES
+   =========================== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+/* ===========================
+   NAVBAR (Sticky)
+   =========================== */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-muted);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* ===========================
+   HERO SECTION
+   =========================== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 6rem 0;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+/* Stack hero section on mobile */
+@media (max-width: 768px) {
+  .hero {
     flex-direction: column;
-    justify-content: flex-start;
-    margin: 0;
-    min-height: 100vh;
-    padding: 10px;
+    text-align: center;
+  }
+  .hero-image {
+    margin-top: 2rem;
+  }
 }
 
-header {
-    background-color: rgba(255, 255, 255, 0.85);
-    border: 2px solid black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    min-width: 800px;
-    padding: 20px;
+/* ===========================
+   BUTTONS
+   =========================== */
+button {
+  background-color: var(--color-primary);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-header div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+button:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
 }
 
-header div img {
-    border-radius: 50%;
-    max-width: 100px;
+/* ===========================
+   PROJECT CARDS
+   =========================== */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-main {
-    width: 800px;
+.card {
+  background-color: white;
+  border: 1px solid var(--color-muted);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
 }
 
-nav, section {
-    background-color: rgba(255, 255, 255, 0.85);
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-    width: 100%;
-    padding: 20px;
+.card:hover {
+  transform: translateY(-4px);
 }
 
-nav a, nav a:active, nav a:visited, nav a:link, nav a:hover {
-    color: inherit;
-    text-decoration: none;
+.card img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-nav ul {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+.project-links {
+  margin-top: 1rem;
 }
 
-nav ul li {
-    background-color: rgba(255, 255, 255, 0.85);
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 2px rgba(100, 100, 100, 0.5);
-    padding: 5px;
-}
-
-nav ul li:hover {
-    background-color: rgba(255, 255, 255, 1.0);
-}
-
-p {
-    line-height: 1.5;
+/* ===========================
+   FOOTER
+   =========================== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--color-muted);
 }
