@@ -51,11 +51,6 @@
             I love turning ideas into functional websites and I’m eager to join a team
             where I can contribute and grow my skills.
         </p>
-        <p>
-            <a href="resume.pdf" target="_blank">
-                <button>Download Resume</button>
-            </a>
-        </p>
     </section>
 
     <!-- ======================
