@@ -11,7 +11,7 @@
 <body>
 
     <!-- ======================
-       NAVBAR (Sticky)
+       NAVBAR
        ====================== -->
     <nav>
         <div class="container nav-container">
@@ -47,8 +47,8 @@
     <section id="about" class="container">
         <h2>About Me</h2>
         <p>
-            I’m a junior web developer with a background in IT support and web design.
-            I love turning ideas into functional websites and I’m eager to join a team
+            I am a web developer with a background in IT support and web design.
+            I love turning ideas into functional websites and I am eager to join a team
             where I can contribute and grow my skills.
         </p>
     </section>
@@ -62,12 +62,12 @@
 
             <!-- Project Card Example -->
             <div class="card">
-                <img src="project1-thumbnail.jpg" alt="Project 1 Screenshot">
+                <img src="./images/card1.jpg" alt="Project 1 Screenshot">
                 <h3>Project One</h3>
                 <p>A responsive landing page built with HTML, CSS, and JavaScript.</p>
                 <p class="project-links">
                     <a href="#" target="_blank">Live Demo</a> |
-                    <a href="#" target="_blank">GitHub Repo</a>
+                    <a href="https://github.com/DJBostock/djbostock_com2" target="_blank">GitHub Repo</a>
                 </p>
             </div>
 
@@ -81,7 +81,7 @@
        ====================== -->
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>If you’d like to work together or have any questions, reach out:</p>
+        <p>If you would like to work together or have any questions, reach out:</p>
         <p>
             📧 <a href="mailto:douglasjbostock@gmail.com">douglasjbostock@gmail.com</a><br>
             🔗 <a href="https://linkedin.com/in/djbostock" target="_blank">LinkedIn</a> |
@@ -93,7 +93,7 @@
        FOOTER
        ====================== -->
     <footer>
-        © 2025 DJ Bostock – Built with ❤️ using HTML, CSS & JavaScript
+        © 2025 DJ Bostock - Built with HTML, CSS, & JavaScript
     </footer>
 
 </body>

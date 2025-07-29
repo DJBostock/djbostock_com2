@@ -187,8 +187,15 @@ button:hover {
 }
 
 .card img {
-  width: 100%;
-  border-radius: 8px;
+  height: 200px;            /* fixed height for consistency */
+  object-fit: cover;        /* crops image instead of squishing */
+  border-radius: 8px;       /* slightly rounded corners */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  transition: transform 0.2s ease;
+}
+
+.card img:hover {
+  transform: scale(1.02);   /* small zoom effect on hover */
 }
 
 .project-links {
