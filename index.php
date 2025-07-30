@@ -19,9 +19,9 @@ $pageTitle = 'DJ Bostock';
         <!-- MAIN -->
         <div class="mt-4 p-5 rounded row">
             <div class="col-12 col-md-8">
-                <h1>DJ Bostock</h1>
+                <h1 class="mb-5">DJ Bostock</h1>
                 <p>Hello, World! Welcome to my page.</p>
-                <p>I am a web developer into turning ideas into functional websites.</p>
+                <p>I am a developer into turning ideas into functional code.</p>
                 <p>I am eager to join a team where I can contribute and grow my skills.</p>
             </div>
             <div class="col-12 col-md-4">

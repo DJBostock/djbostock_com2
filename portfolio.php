@@ -19,7 +19,14 @@ $pageTitle = 'DJ Bostock';
         <!-- MAIN -->
         <div class="mt-4 p-5 rounded row">
             <div class="col-12 col-md-8">
-                <h1>Portfolio</h1>
+                <h1 class="mb-5">Portfolio</h1>
+                <div class="card mb-4 card-shadow">
+                    <div class="card-header">Addition Calculator</div>
+                    <div class="card-body">This is a C# program that prompts the user for two numbers and then displays the sum of them.</div>
+                    <div class="card-footer">
+                        <a href="https://github.com/DJBostock/addition-calculator-CSharp" target="_blank">View on Github</a>
+                    </div>
+                </div>
                 <div class="card mb-4 card-shadow">
                     <div class="card-header">Calculate Area</div>
                     <div class="card-body">This is a Python script that prompts the user for a length and width and returns the area.</div>
