@@ -1,22 +1,14 @@
-/* ===========================
-   FONT IMPORTS
-   =========================== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap');
+/* COLOR VARIABLES */
 
-/* ===========================
-   VARIABLES
-   =========================== */
 :root {
-  --color-bg: #F9FAFB;
-  --color-text: #1F2937;
-  --color-primary: #2563EB;
-  --color-primary-hover: #3B82F6;
-  --color-muted: #E5E7EB;
+  --color-bg: #F9F7F7;
+  --color-text: #112D4E;
+  --color-primary: #3F72AF;
+  --color-muted: #DBE2EF;
 }
 
-/* ===========================
-   GLOBAL BASE STYLES
-   =========================== */
+/* BASE STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -28,187 +20,19 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
-  line-height: 1.6;
-  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
-  color: var(--color-text);
-  margin-bottom: 0.5rem;
-}
+/* CLASS STYLES */
 
-a {
-  color: var(--color-primary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--color-primary-hover);
-}
-
-/* ===========================
-   LAYOUT & UTILITIES
-   =========================== */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-section {
-  padding: 4rem 0;
-}
-
-/* ===========================
-   NAVBAR (Sticky)
-   =========================== */
-nav {
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 1000;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--color-muted);
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links li a {
-  font-weight: 500;
-  color: var(--color-text);
-}
-
-/* ===========================
-   HERO SECTION
-   =========================== */
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 6rem 0;
-}
-
-.hero-text {
-  flex: 1;
-}
-
-.hero-text p {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-}
-
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-image img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
+.hero-img {
+  max-width: 200px;
+  border: 2px solid var(--color-text);
   border-radius: 50%;
-  border: 2px solid;
 }
 
-/* Stack hero section on mobile */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-  .hero-image {
-    margin-top: 2rem;
-  }
-}
-
-/* ===========================
-   BUTTONS
-   =========================== */
-button {
-  background-color: var(--color-primary);
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-  background-color: var(--color-primary-hover);
-  transform: translateY(-2px);
-}
-
-/* ===========================
-   PROJECT CARDS
-   =========================== */
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.card {
-  background-color: white;
-  border: 1px solid var(--color-muted);
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-.card img {
-  height: 200px;            /* fixed height for consistency */
-  object-fit: cover;        /* crops image instead of squishing */
-  border-radius: 8px;       /* slightly rounded corners */
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  transition: transform 0.2s ease;
-}
-
-.card img:hover {
-  transform: scale(1.02);   /* small zoom effect on hover */
-}
-
-.project-links {
-  margin-top: 1rem;
-}
-
-/* ===========================
-   FOOTER
-   =========================== */
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: var(--color-text);
-  padding: 1.5rem 0;
-  border-top: 1px solid var(--color-muted);
+.navbar * {
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }
