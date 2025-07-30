@@ -26,6 +26,10 @@ body {
 
 /* CLASS STYLES */
 
+.card-shadow {
+  box-shadow: 5px 5px 5px var(--color-primary);
+}
+
 .hero-img {
   max-width: 200px;
   border: 2px solid var(--color-text);

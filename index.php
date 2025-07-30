@@ -28,6 +28,11 @@ $pageTitle = 'DJ Bostock';
                 <img src="./images/happy-stick.jpg" alt="happy stick person" class="hero-img">
             </div>
         </div>
+        <div class="mt-4 p-5 rounded row">
+            <div class="col">
+                <button class="btn btn-primary btn-lg rounded" onclick="window.location.href='https://djbostock.com/portfolio.php'">View My Portfolio</button>
+            </div>
+        </div>
     </div>
 </body>
 

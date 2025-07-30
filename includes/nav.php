@@ -13,7 +13,7 @@
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Portfolio</a>
+                    <a class="nav-link" href="portfolio.php">Portfolio</a>
                 </li>
             </ul>
         </div>
