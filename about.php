@@ -1,6 +1,6 @@
 <?php
 // PAGE VARIABLES
-$pageTitle = 'DJ Bostock';
+$pageTitle = 'DJ Bostock - About Me';
 
 ?>
 
