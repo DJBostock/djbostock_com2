@@ -21,12 +21,21 @@ $pageTitle = 'DJ Bostock';
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Portfolio</h1>
                 <div class="card mb-4 card-shadow">
+                    <div class="card-header">Convert Feet and Inches To Centimeters</div>
+                    <div class="card-body">
+                        This is a Java program that prompts the user for a number of feet and inches and then converts that to a number of centimeters. This was practice in method overloading.
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/DJBostock/convert-feet-and-inches-to-centimeters" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <!-- <div class="card mb-4 card-shadow">
                     <div class="card-header">Temperature Converter</div>
                     <div class="card-body">This is a Java program that prompts the user for a degree in either Celsius or Fahrenheit and converts it to the other.</div>
                     <div class="card-footer">
                         <a href="https://github.com/DJBostock/temperature-converter-Java" target="_blank">View on Github</a>
                     </div>
-                </div>
+                </div> -->
                 <div class="card mb-4 card-shadow">
                     <div class="card-header">Addition Calculator</div>
                     <div class="card-body">This is a C# program that prompts the user for two numbers and then displays the sum of them.</div>
