@@ -29,13 +29,6 @@ $pageTitle = 'DJ Bostock';
                         <a href="https://github.com/DJBostock/convert-feet-and-inches-to-centimeters" target="_blank">View on Github</a>
                     </div>
                 </div>
-                <!-- <div class="card mb-4 card-shadow">
-                    <div class="card-header">Temperature Converter</div>
-                    <div class="card-body">This is a Java program that prompts the user for a degree in either Celsius or Fahrenheit and converts it to the other.</div>
-                    <div class="card-footer">
-                        <a href="https://github.com/DJBostock/temperature-converter-Java" target="_blank">View on Github</a>
-                    </div>
-                </div> -->
                 <div class="card mb-4 card-shadow">
                     <div class="card-header">Addition Calculator</div>
                     <div class="card-body">This is a C# program that prompts the user for two numbers and then displays the sum of them.</div>
@@ -57,16 +50,14 @@ $pageTitle = 'DJ Bostock';
                         <a href="https://github.com/DJBostock/favorite-number" target="_blank">View on Github</a>
                     </div>
                 </div>
-                <!-- <div class="card mb-4 card-shadow">
-                    <div class="card-header">Hello World in Java</div>
-                    <div class="card-body">This is a Hello World program written in Java</div>
-                    <div class="card-footer">
-                        <a href="https://github.com/DJBostock/hello-world-java" target="_blank">View on Github</a>
-                    </div>
-                </div> -->
             </div>
             <div class="col-12 col-md-4">
                 <img src="./images/happy-stick.jpg" alt="happy stick person" class="hero-img">
+            </div>
+        </div>
+        <div class="mt-1 p-5 rounded row">
+            <div class="col">
+                <button class="btn btn-primary btn-lg rounded" onclick="window.location.href='https://djbostock.com/archived.php'">Archived Projects</button>
             </div>
         </div>
     </div>
