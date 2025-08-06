@@ -9,6 +9,7 @@ $pageTitle = 'DJ Bostock';
 
 <head>
     <?php include './includes/head.php'; ?>
+    <meta name="description" content="Developer portfolio for DJ Bostock">
 </head>
 
 <body>
