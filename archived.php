@@ -21,6 +21,13 @@ $pageTitle = 'DJ Bostock';
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Archived Projects</h1>
                 <div class="card mb-4 card-shadow">
+                    <div class="card-header">Favorite Number</div>
+                    <div class="card-body">This is a C++ program that asks a user for their favorite number and then responds.</div>
+                    <div class="card-footer">
+                        <a href="https://github.com/DJBostock/favorite-number" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <div class="card mb-4 card-shadow">
                     <div class="card-header">Temperature Converter</div>
                     <div class="card-body">This is a Java program that prompts the user for a degree in either Celsius or Fahrenheit and converts it to the other.</div>
                     <div class="card-footer">

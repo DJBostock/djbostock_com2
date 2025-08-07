@@ -44,10 +44,10 @@ $pageTitle = 'DJ Bostock';
                     </div>
                 </div>
                 <div class="card mb-4 card-shadow">
-                    <div class="card-header">Favorite Number</div>
-                    <div class="card-body">This is a C++ program that asks a user for their favorite number and then responds.</div>
+                    <div class="card-header">Calculate Area of a Room</div>
+                    <div class="card-body">This C++ program will calculate the area of a room in square feet (and rounds the answer to two decimal places).</div>
                     <div class="card-footer">
-                        <a href="https://github.com/DJBostock/favorite-number" target="_blank">View on Github</a>
+                        <a href="https://github.com/DJBostock/calculate-area-of-a-room" target="_blank">View on Github</a>
                     </div>
                 </div>
             </div>
