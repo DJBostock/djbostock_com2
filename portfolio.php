@@ -17,7 +17,7 @@ $pageTitle = 'DJ Bostock';
         <?php include './includes/nav.php'; ?>
 
         <!-- MAIN -->
-        <div class="mt-4 p-5 rounded row">
+        <div class="mt-4 p-5 pb-0 rounded row">
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Portfolio</h1>
                 <div class="card mb-4 card-shadow">
@@ -55,7 +55,7 @@ $pageTitle = 'DJ Bostock';
                 <img src="./images/happy-stick.jpg" alt="happy stick person" class="hero-img">
             </div>
         </div>
-        <div class="mt-1 p-5 rounded row">
+        <div class="mt-1 p-5 pt-0 rounded row">
             <div class="col">
                 <button class="btn btn-primary btn-lg rounded" onclick="window.location.href='https://djbostock.com/archived.php'">Archived Projects</button>
             </div>
