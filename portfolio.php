@@ -21,6 +21,13 @@ $pageTitle = 'DJ Bostock';
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Portfolio</h1>
                 <div class="card mb-4 card-shadow">
+                    <div class="card-header">Choose Your Own Adventure</div>
+                    <div class="card-body">This is a Python script that allows the user to play a Choose Your Own Adventure style text game.</div>
+                    <div class="card-footer">
+                        <a href="https://github.com/DJBostock/Choose-Your-Own-Adventure" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <div class="card mb-4 card-shadow">
                     <div class="card-header">Calculate Area of a Room</div>
                     <div class="card-body">This C++ program will calculate the area of a room in square feet (and rounds the answer to two decimal places).</div>
                     <div class="card-footer">
@@ -41,13 +48,6 @@ $pageTitle = 'DJ Bostock';
                     <div class="card-body">This is a C# program that prompts the user for two numbers and then displays the sum of them.</div>
                     <div class="card-footer">
                         <a href="https://github.com/DJBostock/addition-calculator-CSharp" target="_blank">View on Github</a>
-                    </div>
-                </div>
-                <div class="card mb-4 card-shadow">
-                    <div class="card-header">Calculate Area</div>
-                    <div class="card-body">This is a Python script that prompts the user for a length and width and returns the area.</div>
-                    <div class="card-footer">
-                        <a href="https://github.com/DJBostock/calculate-area-python" target="_blank">View on Github</a>
                     </div>
                 </div>
             </div>
