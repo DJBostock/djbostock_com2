@@ -28,6 +28,10 @@ $pageTitle = 'DJ Bostock - About Me';
                 <img src="./images/happy-stick.jpg" alt="happy stick person" class="hero-img">
             </div>
         </div>
+        <!-- FOOTER -->
+        <div class="ps-5 pe-5">
+            <?php include './includes/footer.php'; ?>
+        </div>
     </div>
 </body>
 

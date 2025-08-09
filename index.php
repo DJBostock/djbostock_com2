@@ -34,6 +34,10 @@ $pageTitle = 'DJ Bostock';
                 <button class="btn btn-primary btn-lg rounded" onclick="window.location.href='https://djbostock.com/portfolio.php'">View My Portfolio</button>
             </div>
         </div>
+        <!-- FOOTER -->
+        <div class="ps-5 pe-5">
+            <?php include './includes/footer.php'; ?>
+        </div>
     </div>
 </body>
 
