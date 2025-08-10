@@ -63,6 +63,7 @@ $pageTitle = 'DJ Bostock';
         <!-- FOOTER -->
         <div class="ps-5 pe-5">
             <?php include './includes/footer.php'; ?>
+            <script src="./js/script.js"></script>
         </div>
     </div>
 </body>
