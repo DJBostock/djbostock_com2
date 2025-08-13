@@ -9,6 +9,16 @@ $pageTitle = 'DJ Bostock';
 
 <head>
     <?php include './includes/head.php'; ?>
+
+    <style>
+        label {
+            min-width: 100px;
+        }
+
+        form>div {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +34,11 @@ $pageTitle = 'DJ Bostock';
                 <form action="contact2.php" method="get">
                     <div>
                         <label for="user_email">User Email:</label>
-                        <input type="text" name="user_email" id="user_email">
+                        <input type="email" name="user_email" id="user_email">
+                    </div>
+                    <div>
+                        <label for="user_subject">Subject:</label>
+                        <input type="text" name="user_subject" id="user_subject">
                     </div>
                 </form>
             </div>
