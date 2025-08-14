@@ -40,6 +40,10 @@ $pageTitle = 'DJ Bostock';
                         <label for="user_subject">Subject:</label>
                         <input type="text" name="user_subject" id="user_subject">
                     </div>
+                    <div>
+                        <label for="user_message">Message:</label>
+                        <textarea name="user_message" id="user_message" cols="40"></textarea>
+                    </div>
                 </form>
             </div>
             <div class="col-12 col-md-4">
