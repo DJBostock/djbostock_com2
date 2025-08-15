@@ -21,17 +21,17 @@ $pageTitle = 'DJ Bostock';
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Portfolio</h1>
                 <div class="card mb-4 card-shadow">
+                    <div class="card-header">Cost Calculator For A Carpet Cleaning Business</div>
+                    <div class="card-body">This is a C++ program that will create a price estimate for a customer based on the number and size of the rooms they want cleaned at a carpet cleaning business.</div>
+                    <div class="card-footer">
+                        <a href="https://github.com/DJBostock/Carpet-Cleaning-Estimate-Calculator" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <div class="card mb-4 card-shadow">
                     <div class="card-header">Choose Your Own Adventure</div>
                     <div class="card-body">This is a Python script that allows the user to play a Choose Your Own Adventure style text game.</div>
                     <div class="card-footer">
                         <a href="https://github.com/DJBostock/Choose-Your-Own-Adventure" target="_blank">View on Github</a>
-                    </div>
-                </div>
-                <div class="card mb-4 card-shadow">
-                    <div class="card-header">Calculate Area of a Room</div>
-                    <div class="card-body">This C++ program will calculate the area of a room in square feet (and rounds the answer to two decimal places).</div>
-                    <div class="card-footer">
-                        <a href="https://github.com/DJBostock/calculate-area-of-a-room" target="_blank">View on Github</a>
                     </div>
                 </div>
                 <div class="card mb-4 card-shadow">
