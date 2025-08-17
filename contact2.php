@@ -11,6 +11,11 @@ $pageTitle = 'DJ Bostock';
     <?php include './includes/head.php'; ?>
 
     <style>
+        button {
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+
         label {
             min-width: 100px;
         }
@@ -31,7 +36,7 @@ $pageTitle = 'DJ Bostock';
             <div class="col-12 col-md-8">
                 <h1 class="mb-5">Contact Me</h1>
                 <!-- CONTACT FORM -->
-                <form action="contact2.php" method="get">
+                <form action="contact2.php" method="post">
                     <div>
                         <label for="user_email">User Email:</label>
                         <input type="email" name="user_email" id="user_email">
@@ -44,6 +49,7 @@ $pageTitle = 'DJ Bostock';
                         <label for="user_message">Message:</label>
                         <textarea name="user_message" id="user_message" cols="40"></textarea>
                     </div>
+                    <button type="submit">Send</button>
                 </form>
             </div>
             <div class="col-12 col-md-4">
