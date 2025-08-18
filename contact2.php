@@ -23,6 +23,10 @@ $pageTitle = 'DJ Bostock';
         form>div {
             margin-bottom: 10px;
         }
+
+        .invalidEmail {
+            border: 4px solid red;
+        }
     </style>
 </head>
 
@@ -39,15 +43,15 @@ $pageTitle = 'DJ Bostock';
                 <form action="contact2.php" method="post">
                     <div>
                         <label for="user_email">Your Email:</label>
-                        <input type="email" name="user_email" id="user_email">
+                        <input type="email" name="user_email" id="user_email" required>
                     </div>
                     <div>
                         <label for="user_subject">Subject:</label>
-                        <input type="text" name="user_subject" id="user_subject">
+                        <input type="text" name="user_subject" id="user_subject" required>
                     </div>
                     <div>
                         <label for="user_message">Message:</label>
-                        <textarea name="user_message" id="user_message" cols="40"></textarea>
+                        <textarea name="user_message" id="user_message" cols="40" required></textarea>
                     </div>
                     <button type="submit">Send</button>
                 </form>
@@ -60,6 +64,20 @@ $pageTitle = 'DJ Bostock';
         <div class="ps-5 pe-5">
             <?php include './includes/footer.php'; ?>
             <script src="./js/script.js"></script>
+            <script>
+                let userEmail = document.getElementById('user_email');
+
+                function validateEmail() {
+                    let userEmailValue = document.getElementById('user_email').value;
+                    if (/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(userEmailValue)) {
+                        document.getElementById('user_email').classList.remove('invalidEmail');
+                    } else {
+                        document.getElementById('user_email').classList.add('invalidEmail');
+                    }
+                }
+
+                userEmail.addEventListener("input", validateEmail);
+            </script>
         </div>
     </div>
 </body>
