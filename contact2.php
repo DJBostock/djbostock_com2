@@ -38,7 +38,7 @@ $pageTitle = 'DJ Bostock';
                 <!-- CONTACT FORM -->
                 <form action="contact2.php" method="post">
                     <div>
-                        <label for="user_email">User Email:</label>
+                        <label for="user_email">Your Email:</label>
                         <input type="email" name="user_email" id="user_email">
                     </div>
                     <div>
