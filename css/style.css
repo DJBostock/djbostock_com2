@@ -1,60 +1,125 @@
 /* COLOR VARIABLES */
 
 :root {
-  --color-bg: #F9F7F7;
-  --color-text: #112D4E;
-  --color-primary: #3F72AF;
-  --color-muted: #DBE2EF;
+    --color-bg: #f9f7f7;
+    --color-text: #112d4e;
+    --color-primary: #3f72af;
+    --color-muted: #dbe2ef;
 }
 
 /* BASE STYLES */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    background-color: white;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    padding: 2px;
+    text-align: right;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2px;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    padding: 2px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+section > div > p {
+    margin: 10px;
 }
 
 /* CLASS STYLES */
 
-.card-shadow {
-  box-shadow: 5px 5px 5px var(--color-primary);
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .hero-img {
-  max-width: 200px;
-  border: 2px solid var(--color-text);
-  border-radius: 50%;
-  box-shadow: 5px 5px 5px var(--color-primary);
-}
-
-.navbar * {
-  background-color: var(--color-text);
-  color: var(--color-bg);
-}
-
-.navbar-brand:hover {
-  color: var(--color-primary);
-}
-
-.nav-link:hover {
-  color: var(--color-primary);
+    border: 2px solid black;
+    border-radius: 50%;
+    max-width: 200px;
 }
 
 /* ID STYLES */
 
-#burger-icon {
-  background-color: var(--color-bg);
-  border: 1px solid var(--color-muted);
-  border-radius: 5px;
-  color: var(--color-text);
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 575px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        max-width: 920px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        max-width: 1320px;
+    }
 }

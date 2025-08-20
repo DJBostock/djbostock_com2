@@ -18,13 +18,25 @@ $pageTitle = 'DJ Bostock';
         <?php include './includes/nav.php'; ?>
 
         <!-- MAIN -->
-        <div></div>
+        <main>
+            <h1>Hello, World!</h1>
+            <section>
+                <div>
+                    <p>Welcome to my page!</p>
+                    <p>I am a developer into turning ideas into functional code.</p>
+                    <p>I am eager to join a team where I can contribute and grow my skills.</p>
+                </div>
+                <div>
+                    <img src="./images/happy-stick.jpg" alt="smiling stick figure" class="hero-img">
+                </div>
+            </section>
+        </main>
 
         <!-- FOOTER -->
-        <div>
+        <footer>
             <?php include './includes/footer.php'; ?>
             <script src="./js/script.js"></script>
-        </div>
+        </footer>
     </div>
 </body>
 
