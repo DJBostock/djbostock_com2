@@ -7,6 +7,10 @@
     --color-muted: #dbe2ef;
 }
 
+/* FONT IMPORTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* BASE STYLES */
 
 * {
@@ -23,6 +27,7 @@ html {
 body {
     background-color: var(--color-bg);
     color: var(--color-text);
+    font-family: "Montserrat", sans-serif;
     margin: 0 auto;
     min-height: 100vh;
 }
