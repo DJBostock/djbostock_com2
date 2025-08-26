@@ -14,6 +14,9 @@ $pageTitle = 'DJ Bostock';
 
 <body>
     <div class="container">
+        <!-- HEADER -->
+        <header></header>
+
         <!-- NAVBAR -->
         <?php include './includes/nav.php'; ?>
 
