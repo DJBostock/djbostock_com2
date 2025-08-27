@@ -1,6 +1,6 @@
 <?php
 // PAGE VARIABLES
-$pageTitle = 'DJ Bostock';
+$pageTitle = 'DJ Bostock - About Me';
 
 ?>
 
@@ -9,7 +9,6 @@ $pageTitle = 'DJ Bostock';
 
 <head>
     <?php include './includes/head.php'; ?>
-    <meta name="description" content="Developer portfolio for DJ Bostock">
 </head>
 
 <body>
@@ -26,10 +25,7 @@ $pageTitle = 'DJ Bostock';
         <!-- MAIN -->
         <main>
             <!-- ARTICLE -->
-            <article>
-                <p>Welcome to my page.</p>
-                <p>This is the portfolio website for DJ Bostock.</p>
-            </article>
+            <article></article>
 
             <!-- SECTION -->
             <section></section>

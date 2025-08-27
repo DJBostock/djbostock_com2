@@ -1,6 +1,6 @@
 <?php
 // PAGE VARIABLES
-$pageTitle = 'DJ Bostock';
+$pageTitle = 'DJ Bostock - Portfolio';
 
 ?>
 
@@ -9,7 +9,6 @@ $pageTitle = 'DJ Bostock';
 
 <head>
     <?php include './includes/head.php'; ?>
-    <meta name="description" content="Developer portfolio for DJ Bostock">
 </head>
 
 <body>
@@ -26,13 +25,18 @@ $pageTitle = 'DJ Bostock';
         <!-- MAIN -->
         <main>
             <!-- ARTICLE -->
-            <article>
-                <p>Welcome to my page.</p>
-                <p>This is the portfolio website for DJ Bostock.</p>
-            </article>
+            <article></article>
 
             <!-- SECTION -->
-            <section></section>
+            <section>
+                <div class="portfolioCard">
+                    <div class="portfolioCardHead">Favorite Number</div>
+                    <div class="portfolioCardBody">This is a C++ program that prompts a user to enter their favorite number and then responds to them.</div>
+                    <div class="portfolioCardFoot">
+                        <a href="https://github.com/DJBostock/favorite-number" target="_blank">View on Github</a>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- ASIDE -->
