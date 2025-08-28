@@ -1,6 +1,6 @@
 <?php
 // PAGE VARIABLES
-$pageTitle = 'DJ Bostock - About Me';
+$pageTitle = 'DJ Bostock - Blog';
 
 ?>
 
@@ -25,10 +25,7 @@ $pageTitle = 'DJ Bostock - About Me';
         <!-- MAIN -->
         <main>
             <!-- ARTICLE -->
-            <article>
-                <p>I am an experienced IT help desk person. Mostly I have worked remote roles supporting government contractors.</p>
-                <p>I have a certificate in web development from my local community college. This level of education is roughly similar to a bootcamp program.</p>
-            </article>
+            <article></article>
 
             <!-- SECTION -->
             <section></section>

@@ -25,7 +25,9 @@ $pageTitle = 'DJ Bostock - Contact Me';
         <!-- MAIN -->
         <main>
             <!-- ARTICLE -->
-            <article></article>
+            <article>
+                <p>For now, it is best to contact me by email at: <a href="mailto:douglasjbostock@gmail.com">douglasjbostock@gmail.com</a></p>
+            </article>
 
             <!-- SECTION -->
             <section></section>

@@ -28,7 +28,7 @@ $pageTitle = 'DJ Bostock';
             <!-- ARTICLE -->
             <article>
                 <p>Welcome to my page.</p>
-                <p>This is the portfolio website for DJ Bostock.</p>
+                <p>This is my hobbyiest website where, among other things, I host my developer portfolio.</p>
             </article>
 
             <!-- SECTION -->
