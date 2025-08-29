@@ -59,13 +59,17 @@ nav {
 }
 
 nav ul {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 /* CLASS STYLES */
@@ -109,6 +113,11 @@ nav ul {
 @media screen and (min-width: 576px) {
     body {
         max-width: 540px;
+    }
+
+    nav ul {
+        align-items: center;
+        flex-direction: row;
     }
 }
 

@@ -2,6 +2,25 @@
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Blog';
 
+$articles = [
+    [
+        "title"   => "First post",
+        "content" => "This is the first of many posts!"
+    ],
+    [
+        "title"   => "Another post",
+        "content" => "Yet another fascinating post..."
+    ],
+    [
+        "title"   => "Read this!",
+        "content" => "You must read this now, it's essential reading!"
+    ],
+    [
+        "title"   => "The latest news",
+        "content" => "Here's the latest news, read it now"
+    ]
+];
+
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +44,19 @@ $pageTitle = 'DJ Bostock - Blog';
         <!-- MAIN -->
         <main>
             <!-- ARTICLE -->
-            <article></article>
+            <article>
+                <h2>* Under Construction *</h2>
+                <ul>
+                    <?php foreach ($articles as $article): ?>
+                        <li>
+                            <article>
+                                <h3><?= $article['title']; ?></h3>
+                                <p><?= $article['content']; ?></p>
+                            </article>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </article>
 
             <!-- SECTION -->
             <section></section>
