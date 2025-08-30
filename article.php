@@ -4,16 +4,22 @@ $pageTitle = 'DJ Bostock - Blog';
 
 include('./includes/db_credentials.php');
 
+if (isset($_GET['id']) && is_numeric($_GET['id'])) {
+    $id = $_GET['id'];
+} else {
+    $id = 0;
+}
+
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
-$sql = "SELECT * FROM article ORDER BY created_at DESC;";
+$sql = "SELECT * FROM article WHERE id = $id;";
 
 $results = mysqli_query($conn, $sql);
 
 if ($results === false) {
-    $articles = [];
+    $article = null;
 } else {
-    $articles = mysqli_fetch_all($results, MYSQLI_ASSOC);
+    $article = mysqli_fetch_assoc($results);
 }
 
 ?>
@@ -40,19 +46,11 @@ if ($results === false) {
         <main>
             <!-- ARTICLE -->
             <article>
-                <p>Micro updates regarding the page itself or projects for my portfolio.</p>
-
-                <?php if (empty($articles)): ?>
-                    <p>No articles found.</p>
+                <?php if ($article == null): ?>
+                    <p>Article not found.</p>
                 <?php else: ?>
-                    <ul>
-                        <?php foreach ($articles as $article): ?>
-                            <li>
-                                <h2><a href="article.php?id=<?= $article['id']; ?>"><?= $article['title']; ?></a></h2>
-                                <p><?= $article['content']; ?></p>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
+                    <h2><?= $article['title']; ?></h2>
+                    <p><?= $article['content']; ?></p>
                 <?php endif; ?>
             </article>
 
