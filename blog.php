@@ -2,9 +2,7 @@
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Blog';
 
-include('./includes/db_credentials.php');
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+include './includes/database.php';
 
 $sql = "SELECT * FROM article ORDER BY created_at DESC;";
 

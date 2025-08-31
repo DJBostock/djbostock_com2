@@ -2,15 +2,13 @@
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Blog';
 
-include('./includes/db_credentials.php');
-
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $id = $_GET['id'];
 } else {
     $id = 0;
 }
 
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+include './includes/database.php';
 
 $sql = "SELECT * FROM article WHERE id = $id;";
 
