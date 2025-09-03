@@ -2,19 +2,24 @@
 // PAGE VARIABLES
 $pageTitle = 'New Article';
 
-include './includes/database.php';
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $title = '"' . $_POST['title'] . '"';
-    $content = '"' . $_POST['content'] . '"';
+    include './includes/database.php';
+    $conn = getDB();
 
-    $sql = "INSERT INTO article (title, content) VALUES ($title, $content)";
+    $title = $_POST['title'];
+    $content = $_POST['content'];
 
-    $results = mysqli_query($conn, $sql);
+    $sql = "INSERT INTO article (title, content) VALUES (?, ?)";
 
-    $id = mysqli_insert_id($conn);
-    echo "Inserted record with ID: $id";
+    $stmt = mysqli_prepare($conn, $sql);
+
+    mysqli_stmt_bind_param($stmt, "ss", $title, $content);
+
+    if (mysqli_stmt_execute($stmt)) {
+        $id = mysqli_insert_id($conn);
+        echo "Inserted record with ID: $id";
+    }
 }
 
 ?>

@@ -9,6 +9,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 }
 
 include './includes/database.php';
+$conn = getDB();
 
 $sql = "SELECT * FROM article WHERE id = $id;";
 

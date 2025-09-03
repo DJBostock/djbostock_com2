@@ -3,6 +3,7 @@
 $pageTitle = 'DJ Bostock - Blog';
 
 include './includes/database.php';
+$conn = getDB();
 
 $sql = "SELECT * FROM article ORDER BY created_at DESC;";
 
