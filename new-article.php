@@ -2,23 +2,48 @@
 // PAGE VARIABLES
 $pageTitle = 'New Article';
 
+$errors = [];
+$titleValue = '';
+$contentValue = '';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    include './includes/database.php';
-    $conn = getDB();
-
     $title = $_POST['title'];
+    if ($title == '') {
+        $errors[] = 'The title can not be blank.';
+    } else {
+        $titleValue = htmlspecialchars($title, ENT_QUOTES, 'UTF-8');
+    }
+
     $content = $_POST['content'];
+    if ($content == '') {
+        $errors[] = 'The content can not be blank.';
+    } else {
+        $contentValue = htmlspecialchars($content, ENT_QUOTES, 'UTF-8');
+    }
 
-    $sql = "INSERT INTO article (title, content) VALUES (?, ?)";
+    if (empty($errors)) {
+        include './includes/database.php';
+        $conn = getDB();
 
-    $stmt = mysqli_prepare($conn, $sql);
+        $sql = "INSERT INTO article (title, content) VALUES (?, ?)";
 
-    mysqli_stmt_bind_param($stmt, "ss", $title, $content);
+        $stmt = mysqli_prepare($conn, $sql);
 
-    if (mysqli_stmt_execute($stmt)) {
-        $id = mysqli_insert_id($conn);
-        echo "Inserted record with ID: $id";
+        mysqli_stmt_bind_param($stmt, "ss", $title, $content);
+
+        if (mysqli_stmt_execute($stmt)) {
+            $id = mysqli_insert_id($conn);
+
+            if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+                $protocol = 'https';
+            } else {
+                $protocol = 'http';
+            }
+
+            header("Location: $protocol://" . $_SERVER['HTTP_HOST'] . "article.php?id=$id");
+            exit;
+        }
     }
 }
 
@@ -48,14 +73,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <article>
                 <h2>New Article</h2>
 
+                <?php if (!empty($errors)): ?>
+                    <ul>
+                        <?php foreach ($errors as $error): ?>
+                            <li><?= $error; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+
                 <form action="" method="post">
                     <div>
                         <label for="title">Title:</label>
-                        <input type="text" name="title" id="title" placeholder="Article title">
+                        <input type="text" name="title" id="title" placeholder="Article title" value="<?= $titleValue; ?>">
                     </div>
                     <div>
                         <label for="content">Content:</label>
-                        <textarea name="content" id="content" rows="4" cols="40" placeholder="Article content"></textarea>
+                        <textarea name="content" id="content" rows="4" cols="40" placeholder="Article content"><?= $contentValue; ?></textarea>
                     </div>
                     <button>Add</button>
                 </form>
