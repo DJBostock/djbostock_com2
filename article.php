@@ -41,6 +41,8 @@ $article = getArticle($id, $conn);
                 <?php else: ?>
                     <h2><?= htmlspecialchars($article['title']); ?></h2>
                     <p><?= htmlspecialchars($article['content']); ?></p>
+                    <p><a href="edit-article.php?id=<?= $article['id']; ?>">Edit Article</a></p>
+                    <p><a href="delete-article.php?id=<?= $article['id']; ?>">Delete Article</a></p>
                 <?php endif; ?>
             </article>
 

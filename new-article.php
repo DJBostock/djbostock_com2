@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $protocol = 'http';
             }
 
-            header("Location: $protocol://" . $_SERVER['HTTP_HOST'] . "article.php?id=$id");
+            header("Location: $protocol://" . "djbostock.com/article.php?id=$id");
             exit;
         }
     }

@@ -28,6 +28,13 @@ $pageTitle = 'DJ Bostock - Portfolio';
             <article>
                 <h2>Current</h2>
                 <div class="portfolioCard">
+                    <div class="portfolioCardHead">Simple Calculator</div>
+                    <div class="portfolioCardBody">This is a C# program that prompts the user for two numbers and an operation, performs the operation, and displays the result.</div>
+                    <div class="portfolioCardFoot">
+                        <a href="https://github.com/DJBostock/CSharpSimpleCalculator" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <div class="portfolioCard">
                     <div class="portfolioCardHead">Choose Your Own Adventure</div>
                     <div class="portfolioCardBody">This is a Python program that leads the user through a series of decisions as part of a simple adventure story.</div>
                     <div class="portfolioCardFoot">
@@ -48,6 +55,11 @@ $pageTitle = 'DJ Bostock - Portfolio';
                         <a href="https://github.com/DJBostock/temperature-converter-Java" target="_blank">View on Github</a>
                     </div>
                 </div>
+            </article>
+
+            <!-- SECTION -->
+            <section>
+                <h2>Archived</h2>
                 <div class="portfolioCard">
                     <div class="portfolioCardHead">Addition Calculator</div>
                     <div class="portfolioCardBody">This is a C# program that prompts the user for two whole numbers, adds them to each other, and displays the result.</div>
@@ -55,11 +67,6 @@ $pageTitle = 'DJ Bostock - Portfolio';
                         <a href="https://github.com/DJBostock/addition-calculator-CSharp" target="_blank">View on Github</a>
                     </div>
                 </div>
-            </article>
-
-            <!-- SECTION -->
-            <section>
-                <h2>Archived</h2>
                 <div class="portfolioCard">
                     <div class="portfolioCardHead">Calculate Area</div>
                     <div class="portfolioCardBody">This is a python script that prompts the user for a length and width and calculates the area of the recetangle.</div>

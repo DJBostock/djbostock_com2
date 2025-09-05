@@ -35,3 +35,8 @@ function getDB()
 
     return $conn;
 }
+
+function validateArticle()
+{
+    echo "test";
+}
