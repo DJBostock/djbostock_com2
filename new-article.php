@@ -1,4 +1,18 @@
 <?php
+
+session_start();
+
+if (!$_SESSION['is_logged_in']) {
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+        $protocol = 'https';
+    } else {
+        $protocol = 'http';
+    }
+
+    header("Location: $protocol://" . "djbostock.com/");
+    exit;
+}
+
 // PAGE VARIABLES
 $pageTitle = 'New Article';
 

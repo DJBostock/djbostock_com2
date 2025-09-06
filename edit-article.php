@@ -1,4 +1,18 @@
 <?php
+
+session_start();
+
+if (!$_SESSION['is_logged_in']) {
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+        $protocol = 'https';
+    } else {
+        $protocol = 'http';
+    }
+
+    header("Location: $protocol://" . "djbostock.com/");
+    exit;
+}
+
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Blog';
 
@@ -104,6 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                         </div>
                         <button>Save</button>
                     </form>
+                    <p><a href="article.php?id=<?= $article['id']; ?>">Cancel</a></p>
                 <?php endif; ?>
             </article>
 

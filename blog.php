@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Blog';
 
@@ -40,7 +43,9 @@ if ($results === false) {
             <!-- ARTICLE -->
             <article>
                 <p>Micro updates regarding the page itself or projects for my portfolio.</p>
-                <!-- <p><a href="new-article.php">New Article</a></p> -->
+                <?php if ($_SESSION['is_logged_in']): ?>
+                    <p><a href="new-article.php">New Article</a></p>
+                <?php endif; ?>
 
                 <?php if (empty($articles)): ?>
                     <p>No articles found.</p>

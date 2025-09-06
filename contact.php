@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Contact Me';
 
