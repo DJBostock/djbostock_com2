@@ -33,7 +33,12 @@ $pageTitle = 'DJ Bostock - Contact Me';
             </article>
 
             <!-- SECTION -->
-            <section></section>
+            <section>
+                <h2>My Socials</h2>
+                <ul>
+                    <li><a href="https://github.com/DJBostock" target="_blank"><i class="fa-brands fa-github fa-2x"></i> Github</a></li>
+                </ul>
+            </section>
         </main>
 
         <!-- ASIDE -->
