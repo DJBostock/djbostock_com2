@@ -37,6 +37,7 @@ $pageTitle = 'DJ Bostock - Contact Me';
                 <h2>My Socials</h2>
                 <ul>
                     <li><a href="https://github.com/DJBostock" target="_blank"><i class="fa-brands fa-github fa-2x"></i> Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/djbostock/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i> LinkedIn</a></li>
                 </ul>
             </section>
         </main>
