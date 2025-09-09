@@ -38,6 +38,7 @@ $pageTitle = 'DJ Bostock - Contact Me';
                 <ul>
                     <li><a href="https://github.com/DJBostock" target="_blank"><i class="fa-brands fa-github fa-2x"></i> Github</a></li>
                     <li><a href="https://www.linkedin.com/in/djbostock/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i> LinkedIn</a></li>
+                    <li><a href="https://bsky.app/profile/djbostock.bsky.social" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i>BlueSky</a></li>
                 </ul>
             </section>
         </main>
