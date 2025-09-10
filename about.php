@@ -31,6 +31,7 @@ $pageTitle = 'DJ Bostock - About Me';
             <article>
                 <p>I am an experienced IT help desk person. Mostly I have worked remote roles supporting government contractors.</p>
                 <p>I have a certificate in web development from my local community college. This level of education is roughly similar to a bootcamp program.</p>
+                <p>I am currently seeking a new role in either IT support or software development.</p>
             </article>
 
             <!-- SECTION -->
