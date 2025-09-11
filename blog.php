@@ -25,6 +25,21 @@ if ($results === false) {
 
 <head>
     <?php include './includes/head.php'; ?>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .blogArticle {
+            padding: 10px;
+        }
+
+        .blogArticle:nth-of-type(even) {
+            background-color: #dbdbdb;
+        }
+    </style>
 </head>
 
 <body>
@@ -52,7 +67,7 @@ if ($results === false) {
                 <?php else: ?>
                     <ul>
                         <?php foreach ($articles as $article): ?>
-                            <li>
+                            <li class="blogArticle">
                                 <h2><a href="article.php?id=<?= $article['id']; ?>"><?= htmlspecialchars($article['title']); ?></a></h2>
                                 <p><?= htmlspecialchars($article['content']); ?></p>
                             </li>
