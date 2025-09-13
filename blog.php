@@ -25,21 +25,7 @@ if ($results === false) {
 
 <head>
     <?php include './includes/head.php'; ?>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .blogArticle {
-            padding: 10px;
-        }
-
-        .blogArticle:nth-of-type(even) {
-            background-color: #dbdbdb;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/blog.css">
 </head>
 
 <body>
