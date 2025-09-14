@@ -32,7 +32,6 @@ $pageTitle = 'DJ Bostock - Quiz';
             <article>
                 <h2>Quiz Game</h2>
                 <div class="quizFrame">
-                    <div class="quizSource">Question Source</div>
                     <div class="quizQuestion" id="quizQuestion">Main body of the question itself...</div>
                     <div class="quizAnswers">
                         <div class="quizAnswerBox">
@@ -50,6 +49,8 @@ $pageTitle = 'DJ Bostock - Quiz';
                     </div>
                     <button class="quizButton" id="quizButton" disabled>Submit</button>
                     <input type="hidden" name="correctAnswer" id="correctAnswer" value="">
+                    <input type="hidden" name="answerText" id="answerText" value="">
+                    <div class="quizSource" id="quizSource">Question Source</div>
                 </div>
             </article>
 
