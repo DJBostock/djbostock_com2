@@ -31,7 +31,7 @@ $pageTitle = 'DJ Bostock';
             <!-- ARTICLE -->
             <article>
                 <p>Welcome to my page.</p>
-                <p>This is a hobbyiest website where, among other things, I host my developer portfolio.</p>
+                <p>This is a hobbyiest website where, among other things, I host my developer portfolio. Check out some of the links above to proceed.</p>
             </article>
 
             <!-- SECTION -->
