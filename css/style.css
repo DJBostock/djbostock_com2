@@ -10,9 +10,7 @@
 /* ELEMENT STYLES */
 
 body {
-    background-color: var(--color-bg);
     border: 0;
-    color: var(--color-text);
     display: flex;
     min-height: 100vh;
     margin: 0 auto;
@@ -44,7 +42,8 @@ header {
 }
 
 html {
-    background-color: white;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 main {
