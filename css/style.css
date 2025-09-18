@@ -74,10 +74,15 @@ p {
 /* CLASS STYLES */
 
 .container {
+    border: 2px solid var(--color-text);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--color-muted);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     font-family: Montserrat, sans-serif;
+    margin: 10px;
+    padding: 10px;
 }
 
 .header-img {
