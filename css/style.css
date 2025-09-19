@@ -42,7 +42,11 @@ header {
 }
 
 html {
-    background-color: var(--color-bg);
+    background-attachment: fixed;
+    background-image: url("../images/pexels-pixmike-413195.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--color-text);
 }
 
@@ -74,14 +78,14 @@ p {
 /* CLASS STYLES */
 
 .container {
+    background-color: rgba(255, 255, 255, 0.95);
     border: 2px solid var(--color-text);
     border-radius: 10px;
-    box-shadow: 5px 5px var(--color-muted);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     font-family: Montserrat, sans-serif;
-    margin: 10px;
+    margin: 20px 10px;
     padding: 10px;
 }
 

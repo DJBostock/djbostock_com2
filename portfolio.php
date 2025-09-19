@@ -31,6 +31,13 @@ $pageTitle = 'DJ Bostock - Portfolio';
             <article>
                 <h2>Current</h2>
                 <div class="portfolioCard">
+                    <div class="portfolioCardHead">Bank Teller</div>
+                    <div class="portfolioCardBody">The idea to this Java application is that the user is a bank teller and the application assits with setting up an account, checking the balance, and either depositing or withdrawing funds.</div>
+                    <div class="portfolioCardFoot">
+                        <a href="https://github.com/DJBostock/bank-teller" target="_blank">View on Github</a>
+                    </div>
+                </div>
+                <div class="portfolioCard">
                     <div class="portfolioCardHead">Simple Calculator</div>
                     <div class="portfolioCardBody">This is a C# program that prompts the user for two numbers and an operation, performs the operation, and displays the result.</div>
                     <div class="portfolioCardFoot">
@@ -51,6 +58,11 @@ $pageTitle = 'DJ Bostock - Portfolio';
                         <a href="https://github.com/DJBostock/Carpet-Cleaning-Estimate-Calculator" target="_blank">View on Github</a>
                     </div>
                 </div>
+            </article>
+
+            <!-- SECTION -->
+            <section>
+                <h2>Archived</h2>
                 <div class="portfolioCard">
                     <div class="portfolioCardHead">Temperature Converter</div>
                     <div class="portfolioCardBody">This is a Java program that prompts the user for a temperature in Celsius or Fahrenheit, converts it to the other, and displays it.</div>
@@ -58,11 +70,6 @@ $pageTitle = 'DJ Bostock - Portfolio';
                         <a href="https://github.com/DJBostock/temperature-converter-Java" target="_blank">View on Github</a>
                     </div>
                 </div>
-            </article>
-
-            <!-- SECTION -->
-            <section>
-                <h2>Archived</h2>
                 <div class="portfolioCard">
                     <div class="portfolioCardHead">Addition Calculator</div>
                     <div class="portfolioCardBody">This is a C# program that prompts the user for two whole numbers, adds them to each other, and displays the result.</div>
