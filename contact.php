@@ -12,6 +12,11 @@ $pageTitle = 'DJ Bostock - Contact Me';
 
 <head>
     <?php include './includes/head.php'; ?>
+    <style>
+        li {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>

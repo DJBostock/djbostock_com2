@@ -10,11 +10,17 @@
 /* ELEMENT STYLES */
 
 body {
+    background-attachment: fixed;
+    background-image: url("../images/pexels-shonejai-445753-1227511.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 0;
+    color: var(--color-text);
     display: flex;
+    margin: 0;
     min-height: 100vh;
-    margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
 }
 
 footer {
@@ -27,7 +33,7 @@ footer p {
 
 h1 {
     font-family: "Condiment";
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 10px;
     text-align: center;
 }
@@ -39,15 +45,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 5px;
-}
-
-html {
-    background-attachment: fixed;
-    background-image: url("../images/pexels-pixmike-413195.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--color-text);
 }
 
 main {
@@ -78,15 +75,15 @@ p {
 /* CLASS STYLES */
 
 .container {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.9);
     border: 2px solid var(--color-text);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     font-family: Montserrat, sans-serif;
-    margin: 20px 10px;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
 }
 
 .header-img {
@@ -113,13 +110,13 @@ p {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 575px) {
-    body {
+    .container {
         max-width: 100%;
     }
 }
 
 @media screen and (min-width: 576px) {
-    body {
+    .container {
         max-width: 540px;
     }
 
@@ -130,25 +127,25 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-    body {
+    .container {
         max-width: 720px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    body {
+    .container {
         max-width: 920px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body {
+    .container {
         max-width: 1140px;
     }
 }
 
 @media screen and (min-width: 1400px) {
-    body {
+    .container {
         max-width: 1320px;
     }
 }
