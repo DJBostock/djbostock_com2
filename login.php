@@ -30,6 +30,25 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <head>
     <?php include './includes/head.php'; ?>
+    <style>
+        article {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100%;
+        }
+
+        form {
+            border: 2px solid var(--color-text);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        form>div {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
