@@ -34,7 +34,8 @@ $pageTitle = 'DJ Bostock - Contact Me';
         <main>
             <!-- ARTICLE -->
             <article>
-                <p>Placeholder for upcoming fancy contact form.</p>
+                <p>Send me a message!</p>
+                <form action="" method="post"></form>
             </article>
 
             <!-- SECTION -->
