@@ -35,7 +35,12 @@ $pageTitle = 'DJ Bostock - Contact Me';
             <!-- ARTICLE -->
             <article>
                 <p>Send me a message!</p>
-                <form action="" method="post"></form>
+                <form action="" method="post">
+                    <div>
+                        <label for="userEmail">Your Email:</label>
+                        <input type="text" name="userEmail" id="userEmail">
+                    </div>
+                </form>
             </article>
 
             <!-- SECTION -->
