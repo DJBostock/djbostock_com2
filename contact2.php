@@ -40,6 +40,10 @@ $pageTitle = 'DJ Bostock - Contact Me';
                         <label for="userEmail">Your Email:</label>
                         <input type="text" name="userEmail" id="userEmail">
                     </div>
+                    <div>
+                        <label for="userSubject">Message Subject:</label>
+                        <input type="text" name="userSubject" id="userSubject">
+                    </div>
                 </form>
             </article>
 
