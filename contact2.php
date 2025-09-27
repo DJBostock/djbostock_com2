@@ -44,6 +44,9 @@ $pageTitle = 'DJ Bostock - Contact Me';
                         <label for="userSubject">Message Subject:</label>
                         <input type="text" name="userSubject" id="userSubject">
                     </div>
+                    <div>
+                        <textarea name="userMessage" id="userMessage"></textarea>
+                    </div>
                 </form>
             </article>
 
