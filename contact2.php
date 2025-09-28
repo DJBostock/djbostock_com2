@@ -2,6 +2,18 @@
 
 session_start();
 
+// This code redirects a user to the main page if they are not logged in.
+if (!$_SESSION['is_logged_in']) {
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+        $protocol = 'https';
+    } else {
+        $protocol = 'http';
+    }
+
+    header("Location: $protocol://" . "djbostock.com/");
+    exit;
+}
+
 // PAGE VARIABLES
 $pageTitle = 'DJ Bostock - Contact Me';
 
