@@ -59,6 +59,7 @@ $pageTitle = 'DJ Bostock - Contact Me';
                     <div>
                         <textarea name="userMessage" id="userMessage"></textarea>
                     </div>
+                    <button>Send</button>
                 </form>
             </article>
 
