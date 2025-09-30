@@ -28,6 +28,11 @@ $pageTitle = 'DJ Bostock - Contact Me';
         li {
             margin-bottom: 20px;
         }
+
+        #contactForm {
+            border: 2px solid black;
+            padding: 10px;
+        }
     </style>
 </head>
 
@@ -47,7 +52,7 @@ $pageTitle = 'DJ Bostock - Contact Me';
             <!-- ARTICLE -->
             <article>
                 <p>Send me a message!</p>
-                <form action="" method="post">
+                <form action="" method="post" id="contactForm">
                     <div>
                         <label for="userEmail">Your Email:</label>
                         <input type="text" name="userEmail" id="userEmail">
