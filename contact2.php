@@ -25,7 +25,16 @@ $pageTitle = 'DJ Bostock - Contact Me';
 <head>
     <?php include './includes/head.php'; ?>
     <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
         li {
+            margin-bottom: 20px;
+        }
+
+        .formElement {
             margin-bottom: 20px;
         }
 
@@ -53,15 +62,15 @@ $pageTitle = 'DJ Bostock - Contact Me';
             <article>
                 <p>Send me a message!</p>
                 <form action="" method="post" id="contactForm">
-                    <div>
+                    <div class="formElement">
                         <label for="userEmail">Your Email:</label>
                         <input type="text" name="userEmail" id="userEmail">
                     </div>
-                    <div>
+                    <div class="formElement">
                         <label for="userSubject">Message Subject:</label>
                         <input type="text" name="userSubject" id="userSubject">
                     </div>
-                    <div>
+                    <div class="formElement">
                         <textarea name="userMessage" id="userMessage"></textarea>
                     </div>
                     <button>Send</button>
