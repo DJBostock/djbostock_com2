@@ -33,6 +33,10 @@ $pageTitle = 'DJ Bostock - Scratch';
                     <h2>Click the button to change the background to a random color</h2>
                     <button id="colorChanger">Change Background Color</button>
                 </div>
+                <div>
+                    <h2 id="usernameH2">Enter Your Username</h2>
+                    <input type="text" id="username">
+                </div>
             </article>
 
             <!-- SECTION -->
@@ -54,6 +58,19 @@ $pageTitle = 'DJ Bostock - Scratch';
                     let green = Math.floor(Math.random() * 256);
                     let blue = Math.floor(Math.random() * 256);
                     document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+                });
+            </script>
+            <script>
+                let h2 = document.getElementById('usernameH2');
+                let username = document.getElementById('username');
+
+                username.addEventListener('input', function(evt) {
+                    // console.log(evt);
+                    if (username.value == '') {
+                        h2.innerText = 'Enter Your Username';
+                    } else {
+                        h2.innerText = 'Welcome, ' + username.value;
+                    }
                 });
             </script>
         </footer>
