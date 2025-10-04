@@ -12,6 +12,13 @@ $pageTitle = 'DJ Bostock - Scratch';
 
 <head>
     <?php include './includes/head.php'; ?>
+
+    <style>
+        .scratch {
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,11 +36,11 @@ $pageTitle = 'DJ Bostock - Scratch';
         <main>
             <!-- ARTICLE -->
             <article>
-                <div>
+                <div class="scratch">
                     <h2>Click the button to change the background to a random color</h2>
                     <button id="colorChanger">Change Background Color</button>
                 </div>
-                <div>
+                <div class="scratch">
                     <h2 id="usernameH2">Enter Your Username</h2>
                     <input type="text" id="username">
                 </div>
