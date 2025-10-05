@@ -44,6 +44,10 @@ $pageTitle = 'DJ Bostock - Scratch';
                     <h2 id="usernameH2">Enter Your Username</h2>
                     <input type="text" id="username">
                 </div>
+                <div class="scratch">
+                    <h2>Fetch API</h2>
+                    <button id="starWarsAPI">Load</button>
+                </div>
             </article>
 
             <!-- SECTION -->
@@ -79,6 +83,16 @@ $pageTitle = 'DJ Bostock - Scratch';
                         h2.innerText = 'Welcome, ' + username.value;
                     }
                 });
+            </script>
+            <script>
+                // Fetch API
+                const loadStarWarsPeople = async () => {
+                    const res = await fetch("https://swapi.tech/api/people/1");
+                    const data = await res.json();
+                    console.log(data);
+                }
+                const SWbutton = document.getElementById("starWarsAPI");
+                SWbutton.addEventListener("click", loadStarWarsPeople);
             </script>
         </footer>
     </div>
