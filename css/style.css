@@ -1,108 +1,112 @@
 /* COLOR VARIABLES */
 
 :root {
-    --color-bg: #f9f7f7;
-    --color-text: #112d4e;
-    --color-primary: #3f72af;
-    --color-muted: #dbe2ef;
+  --color-bg: #f9f7f7;
+  --color-text: #112d4e;
+  --color-primary: #3f72af;
+  --color-muted: #dbe2ef;
 }
 
 /* ELEMENT STYLES */
 
 body {
-    background-attachment: fixed;
-    background-image: url("../images/pexels-shonejai-445753-1227511.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0;
-    color: var(--color-text);
-    display: flex;
-    margin: 0;
-    min-height: 100vh;
-    padding: 0;
+  background-attachment: fixed;
+  background-image: url("../images/pexels-shonejai-445753-1227511.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  color: var(--color-text);
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
 }
 
 footer {
-    text-align: right;
+  text-align: right;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-family: "Condiment";
-    font-size: 5rem;
-    margin: 10px;
-    text-align: center;
+  font-family: "Condiment";
+  font-size: 5rem;
+  margin: 10px;
+  text-align: center;
 }
 
 header {
-    align-items: center;
-    border-bottom: 2px solid var(--color-text);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5px;
+  align-items: center;
+  border-bottom: 2px solid var(--color-text);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 main {
-    border-bottom: 2px solid var(--color-text);
-    flex-grow: 1;
-    margin: 5px 0;
+  border-bottom: 2px solid var(--color-text);
+  flex-grow: 1;
+  margin: 5px 0;
 }
 
 nav {
-    border-bottom: 2px solid var(--color-text);
-    padding: 5px;
+  border-bottom: 2px solid var(--color-text);
+  padding: 5px;
 }
 
 nav ul {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 /* CLASS STYLES */
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 2px solid var(--color-text);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    font-family: Montserrat, sans-serif;
-    margin: 20px auto;
-    padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid var(--color-text);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Montserrat, sans-serif;
+  margin: 20px auto;
+  padding: 10px 20px;
 }
 
 .header-img {
-    border: 2px solid var(--color-text);
-    border-radius: 50%;
-    max-width: 150px;
+  border: 2px solid var(--color-text);
+  border-radius: 50%;
+  max-width: 150px;
 }
 
 .portfolioCard {
-    border: 2px solid var(--color-text);
-    border-radius: 5px;
-    box-shadow: 5px 5px var(--color-primary);
-    margin: 10px 10px 20px 10px;
-    padding: 10px;
+  border: 2px solid var(--color-text);
+  border-radius: 5px;
+  box-shadow: 5px 5px var(--color-primary);
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
 }
 
 .portfolioCardHead,
 .portfolioCardBody {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* ID STYLES */
@@ -110,42 +114,42 @@ p {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 575px) {
-    .container {
-        max-width: 100%;
-    }
+  .container {
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
+  .container {
+    max-width: 540px;
+  }
 
-    nav ul {
-        align-items: center;
-        flex-direction: row;
-    }
+  nav ul {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
+  .container {
+    max-width: 720px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .container {
-        max-width: 920px;
-    }
+  .container {
+    max-width: 920px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
+  .container {
+    max-width: 1140px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
-    .container {
-        max-width: 1320px;
-    }
+  .container {
+    max-width: 1320px;
+  }
 }
