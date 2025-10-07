@@ -153,3 +153,17 @@ p {
     max-width: 1320px;
   }
 }
+
+/* ANIMATIONS */
+.fade-in {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

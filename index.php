@@ -20,7 +20,7 @@ $pageTitle = 'DJ Bostock';
         <!-- HEADER -->
         <header>
             <h1>Hello, World!</h1>
-            <img src="/images/happy-stick.jpg" alt="smiling stick figure" class="header-img">
+            <img src="/images/happy-stick.jpg" alt="smiling stick figure" class="header-img fade-in">
         </header>
 
         <!-- NAVBAR -->
